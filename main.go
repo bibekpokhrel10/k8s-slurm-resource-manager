@@ -35,7 +35,10 @@ func main() {
 	}
 
 	namespace := "default" // Change as needed
-	nodeName := "srv697719"
+	nodeName := os.Getenv("NODE")
+	if nodeName == "" {
+		log.Fatalf("node env is required")
+	}
 
 	// Prompt user to select between Slurm and Kueue
 	var choice string
