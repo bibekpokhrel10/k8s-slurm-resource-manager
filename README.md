@@ -249,7 +249,7 @@ Kueue is a Kubernetes-native batch scheduling system that efficiently manages jo
 
 ---
 
-## Summary
+# Summary
 - **This application automates resource allocation using Slurm and Kueue.**
 - **K3s provides a lightweight Kubernetes environment.**
 - **Slurm is used for HPC job scheduling.**
