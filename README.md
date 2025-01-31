@@ -24,10 +24,6 @@ Here’s a step-by-step breakdown of how to set up and run your application:
   KUBECONFIG=/path/to/kubeconfig
   NODE=node-name
   ```
-- Set `KUBECONFIG` in the environment:
-  ```sh
-  export KUBECONFIG=/path/to/kubeconfig
-  ```
 
 ### **4. Running the Application**
 - The application will **prompt the user** to choose between **Kubernetes (Kueue)** and **Slurm**.
