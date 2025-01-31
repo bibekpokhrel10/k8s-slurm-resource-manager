@@ -1,6 +1,6 @@
 # k8s-slurm-resource-manager
 
-# Resource Allocation Application
+## Resource Allocation Application
 
 This application provides a resource allocation mechanism using Kubernetes (Kueue) and Slurm. It allows users to choose between Slurm and Kueue for managing workloads in a cluster environment.
 
@@ -34,8 +34,6 @@ Here’s a step-by-step breakdown of how to set up and run your application:
 - Based on the selection:
   - If **Kubernetes** is selected, it will use **Kueue** to allocate resources.
   - If **Slurm** is selected, it will perform **Slurm job scheduling**.
-
-
 
 
 ## How the Application Works
